@@ -1,1 +1,0 @@
-C:\side\KotlinWorkshop\JavaToKotlin\build\classes\kotlin\main\MainKt.class
