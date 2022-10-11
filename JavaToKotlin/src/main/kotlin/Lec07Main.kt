@@ -1,5 +1,10 @@
 import java.lang.NumberFormatException
 
+fun main(){
+    val filePrinter = FilePrinter()
+    filePrinter.readFile()
+}
+
 fun parseIntOrThrow(str: String): Int {
     try {
         return str.toInt()
