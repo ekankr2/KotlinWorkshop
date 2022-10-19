@@ -1,10 +1,17 @@
 package Lec15
 
 fun main(){
-    val array = arrayOf(100, 200)
+    val oldMap = mutableMapOf<Int, String>()
+    oldMap[1] = "Monday"
+    oldMap[2] = "Tuesday"
 
-    array.plus(300)
-    for ((idx, value) in array.withIndex()){
-        println("$idx $value")
+    for (key in oldMap.keys){
+        println(key)
+        println(oldMap[key])
+    }
+
+    for ((key, value) in oldMap.entries){
+        println(key)
+        println(value)
     }
 }
