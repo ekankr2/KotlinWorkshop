@@ -4,7 +4,9 @@ import com.group.libraryapp.domain.user.loanhistory.QUserLoanHistory.userLoanHis
 import com.group.libraryapp.domain.user.loanhistory.UserLoanHistory
 import com.group.libraryapp.domain.user.loanhistory.UserLoanStatus
 import com.querydsl.jpa.impl.JPAQueryFactory
+import org.springframework.stereotype.Component
 
+@Component
 class UserLoanHistoryQuerydslRepository(
         private val queryFactory: JPAQueryFactory,
 ) {
